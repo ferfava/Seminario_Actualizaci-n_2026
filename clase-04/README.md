@@ -2,31 +2,41 @@
 
 ## Consigna
 
-Modificar la interfaz de la aplicación con Gradio Blocks en lugar de Interface; sumar un componente diferente de Textbox y Button; conectar una función propia que reciba parámetros y devuelva un resultado. Correr la app localmente con share=True, verificar el enlace público y entregarlo en el aula virtual. El ticket de salida pide el enlace actualizado del Space de Hugging Face y una captura de la app funcionando, o del error si no arranca.
+Modificar la interfaz de la aplicación con Gradio Blocks en lugar de `Interface`; sumar un componente diferente de `Textbox` y `Button`; conectar una función propia que reciba parámetros y devuelva un resultado. La actividad también contemplaba probar la aplicación y compartir una versión pública.
 
 ## Implementación
 
-El archivo app.py ofrece una aplicación de ejemplo en Blocks. Recibe un nombre en un Textbox y un estilo en un Dropdown (componente nuevo). La función crear_saludo(nombre, estilo) devuelve un mensaje al Textbox de salida al hacer clic en el botón.
+El archivo `app.py` contiene una aplicación construida con Gradio Blocks. Recibe un nombre mediante un `Textbox` y permite elegir un estilo con un `Dropdown`, incorporando así un componente adicional. La función `crear_saludo(nombre, estilo)` procesa ambos parámetros y devuelve el resultado en un componente de salida cuando se presiona el botón.
 
-Es una base reproducible para la consigna. Si la app creada en clase tiene otro propósito, se pueden incorporar el Dropdown y la función a esa app sin reemplazar su lógica.
+La estructura deja separada la lógica de la interacción visual y sirve como base para la publicación realizada posteriormente en la Clase 5.
 
 ## Ejecución local
 
-Desde clase-04, crear y activar un entorno virtual, instalar las dependencias y correr la aplicación:
+Desde `clase-04`, crear y activar un entorno virtual, instalar las dependencias y ejecutar la aplicación:
 
-    python -m venv .venv
-    python -m pip install -r requirements.txt
-    python app.py
+```bash
+python -m venv .venv
+python -m pip install -r requirements.txt
+python app.py
+```
 
-Activación: Linux/macOS: source .venv/bin/activate. Windows PowerShell: .venv\Scripts\Activate.ps1.
+Activación del entorno virtual:
 
-La terminal mostrará la URL local y, cuando Gradio pueda establecer la conexión, un enlace temporal público de gradio.live. Mantené el proceso abierto mientras se evalúa la entrega. Para publicar un Space permanente, copiá app.py y requirements.txt a tu Space de Hugging Face y verificá allí que arranque. No se incluye un enlace ni una captura inventados: ambos dependen de una ejecución y un Space propios.
+- Linux/macOS: `source .venv/bin/activate`
+- Windows PowerShell: `.venv\Scripts\Activate.ps1`
 
-## Pendiente para entregar en el aula
+Al iniciar la aplicación, Gradio muestra una URL local y, cuando se habilita el modo compartido, puede generar un enlace público temporal.
 
-- [ ] Ejecutar la app y probar las opciones del Dropdown.
-- [ ] Pegar en el aula el enlace temporal generado al correr app.py.
-- [ ] Actualizar y verificar el Space; pegar su enlace público en el ticket de salida.
-- [ ] Adjuntar una captura real de la app en Blocks (o del error) y describir en una línea dónde quedó el trabajo.
+## Resultado
 
-Referencias: [Blocks](https://www.gradio.app/docs/gradio/blocks) y [Compartir una app](https://www.gradio.app/guides/sharing-your-app).
+La actividad quedó implementada en este repositorio con:
+
+- [x] Interfaz construida con Gradio Blocks.
+- [x] Uso de `Dropdown` además de `Textbox` y `Button`.
+- [x] Función propia con parámetros y valor de retorno.
+- [x] Código y dependencias necesarios para reproducir la aplicación.
+- [x] Continuidad del mismo ejemplo en la Clase 5, donde la aplicación fue publicada y verificada en Render y se creó una versión equivalente en Streamlit.
+
+La publicación permanente y la comparación entre interfaces están documentadas en [`clase-05/README.md`](../clase-05/README.md).
+
+Referencias: [Blocks](https://www.gradio.app/docs/gradio/blocks) · [Compartir una app](https://www.gradio.app/guides/sharing-your-app)
