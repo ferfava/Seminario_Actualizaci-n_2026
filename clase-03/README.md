@@ -16,6 +16,11 @@ El repositorio de GitHub usa la rama `main`. Para evitar confusiones, el trabajo
 
 ## Ticket de salida
 
-**¿Qué hace `git remote add origin <url>`?** Registra en el repositorio local una dirección remota con el nombre `origin`, para poder referirse a ella al enviar o traer cambios. El comando por sí solo no sube archivos.
+**¿Qué hace `git remote add origin <url>`?**  
+Registra en el repositorio local la dirección del repositorio remoto y le asigna el nombre `origin`. Esto permite después usar comandos como `git push` o `git pull` indicando ese remoto. El comando por sí solo no sube archivos.
 
-Las otras dos preguntas son personales: **¿con qué te vas más tranquila hoy?** y **¿con qué te vas con dudas?** Conviene responderlas con tus propias palabras en el aula virtual.
+**¿Con qué me voy más tranquila hoy?**  
+Me voy más tranquila entendiendo mejor la relación entre el repositorio local y GitHub, cómo comprobar en qué rama estoy trabajando y qué significa tener configurado un remoto.
+
+**¿Con qué me voy con dudas?**  
+Todavía me genera dudas qué hacer cuando el repositorio local y el remoto no están sincronizados o cuando aparece un conflicto al hacer `pull` o `push`. Es algo que necesito seguir practicando.
