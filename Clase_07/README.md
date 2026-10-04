@@ -25,8 +25,8 @@ En las aplicaciones locales se descargan los pesos y se realiza la inferencia en
 Clonar el portfolio y entrar a la carpeta:
 
 ```powershell
-git clone https://github.com/ferfava/Seminario_Actualizaci-n_2026.git
-cd Seminario_Actualizaci-n_2026/Clase_07
+git clone https://github.com/ferfava/Seminario_Actualizacion_2026.git
+cd Seminario_Actualizacion_2026/Clase_07
 python -m venv .venv
 ```
 
