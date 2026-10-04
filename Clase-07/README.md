@@ -26,7 +26,7 @@ Clonar el portfolio y entrar a la carpeta:
 
 ```powershell
 git clone https://github.com/ferfava/Seminario_Actualizaci-n_2026.git
-cd Seminario_Actualizaci-n_2026/Clase_07
+cd Seminario_Actualizaci-n_2026/Clase-07
 python -m venv .venv
 ```
 
@@ -126,4 +126,4 @@ Las apps se probaron localmente; este trabajo no incluye un deploy público. Pub
 
 ## Ayuda utilizada
 
-Usé ChatGPT para completar los TODO de los esqueletos de clase, entender los resultados, resolver errores de ejecución y autenticación, y organizar la documentación. Ejecuté las cuatro aplicaciones y las frases de prueba durante la actividad.
+Realicé y probé las cuatro aplicaciones a partir de los esqueletos trabajados en clase. Usé ChatGPT como apoyo para destrabar errores de ejecución y autenticación, interpretar algunos resultados y organizar la documentación. Las pruebas, decisiones y validaciones de las aplicaciones fueron realizadas durante la actividad.
