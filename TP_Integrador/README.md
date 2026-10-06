@@ -267,9 +267,11 @@ Los scores devueltos por el modelo representan confianza relativa entre las cate
 
 ## Aplicación publicada
 
-**Pendiente de deploy.**
+La aplicación se encuentra disponible en:
 
-Una vez publicado el proyecto, aquí se incorporará el enlace público de la aplicación.
+https://seminario-actualizacion-2026.onrender.com
+
+> La instancia utiliza el plan gratuito de Render, por lo que puede entrar en reposo luego de un período de inactividad. La primera carga posterior puede demorar algunos segundos.
 
 ## Autoría y apoyo
 
